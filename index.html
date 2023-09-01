@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>D3.JS demo proj</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://d3js.org/d3.v4.min.js"></script>  
+        <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script> 
+    </head>
+
+    <body style="background-color: rgb(214, 198, 126);">
+        
+        <h1>D3.JS/Vegalite Demo</h1>
+        <p>Sample project demostrating the following fucntionalities:</p>
+        <p>1.Bar chart in Vegalite embedded in a container in D3.js </p>
+        <p>2.Bar chart in D3.js with the bar and label values extracted from a hardcoded array (highlighted on Mouse hover)</p>
+        <p>3.Line & Point chart in D3.js with the point values extracted from a bitcoin api call (highlighted on Mouse hover)</p>
+        
+        <div class="layout">
+            <div id="vega-container" class = "d3_chart"></div>
+            <svg id="svg_1" class = "d3_chart"></svg>
+            <svg id="svg_2" class = "d3_chart"></svg>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

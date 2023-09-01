@@ -1,0 +1,22 @@
+.chart_title {
+    fill: rgb(190, 219, 25); 
+}
+
+.bar_style {
+    stroke: rgb(168, 24, 24);
+    stroke-width: 1px;
+    fill: rgb(20, 212, 78);
+}
+.d3_chart {
+    padding: 10px; 
+}
+
+.layout {
+    padding: 10px; 
+    margin: 0 auto; 
+    width: fit-content; 
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
